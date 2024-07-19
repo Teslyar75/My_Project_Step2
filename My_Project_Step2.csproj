@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="1619335545151330481.jpg" />
+    <None Remove="180905544_3942649309117447_3554253820819976124_n.jpg" />
+    <None Remove="18501481.png" />
+    <None Remove="614043bbe22338cd0e265eaf4695602f-quality_100Xresize_crop_1Xallow_enlarge_0Xw_1200Xh_643.jpg" />
+    <None Remove="Hands.jpeg" />
+    <None Remove="изображение_viber_2024-06-10_23-49-42-164.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="1619335545151330481.jpg" />
+    <Resource Include="180905544_3942649309117447_3554253820819976124_n.jpg" />
+    <Resource Include="18501481.png" />
+    <Resource Include="614043bbe22338cd0e265eaf4695602f-quality_100Xresize_crop_1Xallow_enlarge_0Xw_1200Xh_643.jpg" />
+    <Resource Include="Hands.jpeg" />
+    <Resource Include="изображение_viber_2024-06-10_23-49-42-164.jpg" />
+  </ItemGroup>
+
+</Project>
